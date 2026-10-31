@@ -1,6 +1,6 @@
-# Laboratorio de autenticación — Burp Suite
+# Tarea de autenticación — Burp Suite
 
-Aplicación **solo educativa** para evaluar el comportamiento de un inicio de sesión propio mediante un diccionario de cinco contraseñas. No admite usuarios reales ni almacena datos personales.
+Aplicación **solo educativa** para evaluar el comportamiento de un inicio de sesión propio mediante un diccionario de algunas contraseñas. No admite usuarios reales ni almacena datos personales.
 
 ## Archivos
 - `app.py`: rutas `/`, `/login`, `/panel`, `/logout`, `/health`, autenticación y bloqueo opcional.
@@ -57,5 +57,3 @@ IMPORTANTE: Los contadores están en memoria y se reinician cuando Render duerme
 - Modo protección: primeras tres respuestas `401`, restantes `429`.
 - Si quieres repetir sin esperar cinco minutos, redepliega el servicio de laboratorio para reiniciar la memoria.
 
-## Cierre
-Elimina el servicio Render al terminar la entrega. No reutilices este formulario para datos reales, ni ensayes contra sitios que no controles.
